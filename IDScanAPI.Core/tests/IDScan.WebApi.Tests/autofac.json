@@ -1,0 +1,18 @@
+﻿{
+  "defaultAssembly": "IDScan.Infrastructure",
+  "modules": [
+    {
+      "type": "IDScan.WebApi.WebApiModule,IDScan.WebApi",
+      "properties": {
+      }
+    },
+    {
+      "type": "IDScan.Infrastructure.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "IDScan.Infrastructure.InMemoryDataAccess.InMemoryModule"
+    }
+  ]
+}

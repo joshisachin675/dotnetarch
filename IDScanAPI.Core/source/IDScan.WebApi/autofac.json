@@ -1,0 +1,25 @@
+﻿{
+  "defaultAssembly": "IDScan.Infrastructure",
+  "modules": [
+    {
+      "type": "IDScan.WebApi.WebApiModule,IDScan.WebApi",
+      "properties": {
+      }
+    },
+    {
+      "type": "IDScan.Infrastructure.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      //"type": "IDScan.Infrastructure.InMemoryDataAccess.InMemoryModule"
+      "type": "IDScan.Infrastructure.EntityFrameworkDataAccess.EntityFrameworkModule",
+      "properties": {
+        "DefaultConnection": "Server=(LocalDb)\\MSSQLLocalDB;Database=IDCardScanning;Trusted_Connection=True;MultipleActiveResultSets=true",
+        "ConnectionString": "Server=(LocalDb)\\MSSQLLocalDB;Database=IDCardScanning;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+        //"ConnectionString": "Server=localhost;Database=IDScanDB;User Id=sa;Password=<YourNewStrong!Passw0rd>;"
+      }
+    }
+  ]
+}
