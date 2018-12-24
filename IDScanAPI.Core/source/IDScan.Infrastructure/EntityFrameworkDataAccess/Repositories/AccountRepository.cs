@@ -7,7 +7,7 @@ namespace IDScan.Infrastructure.EntityFrameworkDataAccess {
     using IDScan.Application.Repositories;
     using IDScan.Domain.Accounts;
     using Microsoft.EntityFrameworkCore;
-    using IDScan.ViewModel;
+    using IDScan.Domain;
 
     public class AccountRepository : IAccountReadOnlyRepository, IAccountWriteOnlyRepository , IAccountRepository {
         private readonly IDScanContext _context;

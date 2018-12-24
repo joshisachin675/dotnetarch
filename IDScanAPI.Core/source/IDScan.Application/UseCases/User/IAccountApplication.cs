@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using IDScan.ViewModel;
+﻿using IDScan.Domain;
 
 namespace IDScan.Application.UseCases.User
 {

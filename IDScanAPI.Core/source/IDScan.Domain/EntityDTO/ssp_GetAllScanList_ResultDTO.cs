@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace IDScan.ViewModel
+namespace IDScan.Domain
 {
     public partial class ssp_GetAllScanList_ResultDTO
     {

@@ -2,7 +2,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace IDScan.ViewModel
+namespace IDScan.Domain
 {
 
     public partial class LocationDTO

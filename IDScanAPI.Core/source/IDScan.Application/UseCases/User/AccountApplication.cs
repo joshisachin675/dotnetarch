@@ -1,8 +1,7 @@
 ﻿namespace IDScan.Application.UseCases.User
 {
     using IDScan.Application.Repositories;
-    using IDScan.ViewModel;
-    using System.Threading.Tasks;
+    using IDScan.Domain;
 
     public sealed class AccountApplication  : IAccountApplication
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace IDScan.ViewModel
+namespace IDScan.Domain
 { 
         public partial class ssp_GetAllLocationListDTO
     {

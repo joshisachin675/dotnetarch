@@ -1,4 +1,4 @@
-﻿using IDScan.ViewModel;
+﻿using IDScan.Domain;
 using System.Threading.Tasks;
 
 namespace IDScan.Application.Repositories

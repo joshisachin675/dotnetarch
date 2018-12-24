@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace IDScan.ViewModel
+namespace IDScan.Domain
 {
     public partial class UserDTO
     {

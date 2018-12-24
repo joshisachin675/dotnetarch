@@ -41,8 +41,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\IDScan.Common\IDScan.Common.csproj" />
-    <ProjectReference Include="..\..\IDScan.ViewModel\IDScan.ViewModel.csproj" />
     <ProjectReference Include="..\IDScan.Application\IDScan.Application.csproj" />
+    <ProjectReference Include="..\IDScan.Domain\IDScan.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
